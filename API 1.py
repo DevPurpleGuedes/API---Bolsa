@@ -4,8 +4,6 @@ import PySimpleGUI as sg
 
 def window():
     
-    global tela_principal
-    
     tela_principal = sg.Window('Cotação do Dolar', layout= [
         [sg.Text ('Olá ! Gostaria de saber de a cotação de qual moeda hoje ?')],
         [sg.Checkbox('Dolar', k='Dolar'), sg.Checkbox('Euro', k='Euro'), sg.Checkbox('BitCoin', k='Bitcoin')],
